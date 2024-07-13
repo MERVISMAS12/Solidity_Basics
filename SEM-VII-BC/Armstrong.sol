@@ -12,7 +12,7 @@ contract armstrong{
             n = n/10;
             ans+=(i*i*i);
         }
-        if(ans == temp) return "Armstrong";
-        return "Not armstrong";
+        if(ans == temp) return "Armstrong Number";
+        return "Not Armstrong Number";
     }
 }
