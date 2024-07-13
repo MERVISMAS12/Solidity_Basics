@@ -15,6 +15,6 @@ contract MyFirstContarct{
 
     function addInfo(string memory _hey, uint _no) public {
         hey = _hey;
-        no = _no;
+        no = _no + 1;
     }
 }
