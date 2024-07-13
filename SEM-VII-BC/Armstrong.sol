@@ -13,6 +13,6 @@ contract armstrong{
             ans+=(i*i*i);
         }
         if(ans == temp) return "Armstrong Number";
-        return "Not Armstrong Number";
+        return "Not Armstrong";
     }
 }
