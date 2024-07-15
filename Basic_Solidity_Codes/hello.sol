@@ -10,7 +10,7 @@ contract MyFirstContarct{
 
     // constructor(string memory _hey, uint256 _no){
     //     hey = _hey;
-    //     no = _no;
+    //     no = _no; 
     // }
 
     function addInfo(string memory _hey, uint _no) public {
